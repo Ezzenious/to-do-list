@@ -4,4 +4,13 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
   }
+
+body {
+  height: 100vh;
+  background: url(./img/project-5.jpg) no-repeat center/cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
