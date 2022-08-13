@@ -31,4 +31,19 @@ input {
   padding: 5px;
   font-size: 1.2rem;
 }
+
+#add-task {
+  flex: 1;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: white;
+  color: green;
+  border: green solid 2px;
+  transition: .3s;
+}
+
+#add-task:hover {
+  background-color: green;
+  color: white;
+}
   
