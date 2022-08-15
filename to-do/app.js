@@ -20,4 +20,11 @@ addTask.addEventListener("click", () => {
   deleteBtn.innerHTML = '<i class="fa-solid fa-trash-can"></i>';
   deleteBtn.classList.add("delete-btn");
   task.appendChild(deleteBtn);
+
+  if (inputTask.value === "") {
+    alert("Please enter task");
+  } else {
+    taskContainer.appendChild(task);
+    inputTask.value = "";
+  }
 });
