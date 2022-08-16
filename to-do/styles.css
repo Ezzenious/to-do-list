@@ -1,9 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
 
 body {
   height: 100vh;
@@ -40,7 +40,7 @@ input {
   background-color: white;
   color: green;
   border: green solid 2px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 #add-task:hover {
@@ -74,4 +74,28 @@ input {
   background-color: white;
   cursor: pointer;
 }
-  
+
+.task .check-btn {
+  font-size: 1.5rem;
+  color: orange;
+  border: orange solid 2px;
+  margin-right: 5px;
+  transition: .3s;
+}
+
+.task .delete-btn {
+  font-size: 1.3rem;
+  color: red;
+  border: red solid 2px;
+  transition: .3s;
+}
+
+.task .check-btn:hover {
+  background-color: orange;
+  color: white;
+}
+
+.task .delete-btn:hover {
+  background-color: red;
+  color: white;
+}
