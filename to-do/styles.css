@@ -55,5 +55,16 @@ input {
   border-radius: 10px;
   box-shadow: 0 0 3px;
   margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.task li {
+  list-style: none;
+  flex: 4;
+  padding: 5px;
+  margin: 10px;
+  font-size: 1.3rem;
 }
   
