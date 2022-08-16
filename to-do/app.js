@@ -31,4 +31,13 @@ addTask.addEventListener("click", () => {
   checkBtn.addEventListener("click", () => {
     checkBtn.parentElement.style.textDecoration = "line-through";
   });
+
+  deleteBtn.addEventListener("click", (e) => {
+    let target = e.target;
+    if (target === deleteBtn) {
+      target.parentElement.remove();
+    } else {
+      target.parentElement.parentElement.remove();
+    }
+  });
 });
