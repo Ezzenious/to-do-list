@@ -22,6 +22,7 @@ body {
   box-shadow: 0 0 5px;
 
   display: flex;
+  margin-bottom: 20px;
 }
 
 input {
@@ -45,5 +46,14 @@ input {
 #add-task:hover {
   background-color: green;
   color: white;
+}
+
+.task {
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+  margin-bottom: 10px;
 }
   
