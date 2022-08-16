@@ -67,4 +67,11 @@ input {
   margin: 10px;
   font-size: 1.3rem;
 }
+
+.task button {
+  flex: 1;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
   
